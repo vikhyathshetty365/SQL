@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1cadd"
+    android:orientation="vertical"
+    tools:context=".All_features">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center_horizontal"
+        android:text="Choose your option"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30sp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#581845"
+        android:textColor="@color/white"
+        android:padding="10sp"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corners"
+        android:layout_gravity="center"
+        android:layout_margin="30sp"
+        android:backgroundTint="#cf0039"
+        android:textColor="@color/white"
+        android:padding="10sp"
+        android:text="Delete"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="300sp"
+        android:background="@drawable/rounded_corners"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30sp"
+        android:backgroundTint="#ff5733"
+        android:padding="10sp"
+        android:text="Update"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/display"
+        android:layout_width="300sp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30sp"
+        android:backgroundTint="#00069b"
+        android:padding="10sp"
+        android:text="Display"
+        android:textAllCaps="false"
+        android:background="@drawable/rounded_corners"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

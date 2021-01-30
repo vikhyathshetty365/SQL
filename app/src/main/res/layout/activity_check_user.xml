@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffd0d7"
+    android:orientation="vertical"
+    tools:context=".check_user">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center_horizontal"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginRight="35sp"
+        android:background="@drawable/edittext_background"
+        android:hint="Enter Username"
+        android:padding="30sp"
+        android:textColorHint="#4A0224"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/psw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginRight="35sp"
+        android:layout_marginBottom="30sp"
+        android:background="@drawable/edittext_background"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:padding="30sp"
+        android:textColorHint="#4A0224"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30sp"
+        android:backgroundTint="#b6fff4"
+        android:onClick="goToFeatures"
+        android:background="@drawable/rounded_corners"
+        android:padding="20sp"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+</LinearLayout>

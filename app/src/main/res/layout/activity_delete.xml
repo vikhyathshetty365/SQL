@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D7A9E3FF"
+    android:orientation="vertical"
+    tools:context=".deleteActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center_horizontal"
+        android:text="Delete user"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35sp"
+        android:layout_marginTop="85sp"
+        android:layout_marginRight="35sp"
+        android:layout_marginBottom="20sp"
+        android:background="@drawable/edittext_background"
+        android:hint="Enter Username"
+        android:padding="30sp"
+        android:textColorHint="#750800"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30sp"
+        android:backgroundTint="#ff0000"
+        android:onClick="DeleteUser"
+        android:background="@drawable/rounded_corners"
+        android:textColor="@color/white"
+        android:padding="20sp"
+        android:text="Delete"
+        android:textAllCaps="false"
+        android:textSize="25sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c898be"
+    android:orientation="vertical"
+    tools:context=".Loginorregister">
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="200sp"
+        android:layout_marginRight="30sp"
+        android:backgroundTint="#98c8a2"
+        android:onClick="goToLogin"
+        android:padding="20sp"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:background="@drawable/rounded_corners"
+        android:fadingEdge="horizontal"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginRight="30sp"
+        android:backgroundTint="#98c8a2"
+        android:onClick="goToRegister"
+        android:padding="20sp"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:background="@drawable/rounded_corners"
+        android:textSize="30sp"
+        android:fadingEdge="horizontal"/>
+
+</LinearLayout>

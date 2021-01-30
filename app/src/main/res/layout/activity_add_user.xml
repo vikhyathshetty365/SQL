@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#cecece"
+    tools:context=".AddUser">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add user"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_margin="20sp"
+        android:textSize="40sp"
+        android:gravity="center_horizontal" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:hint="Enter Username"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="35sp"
+        android:layout_marginRight="35sp"
+        android:padding="30sp"
+        android:textSize="20sp"
+        android:background="@drawable/edittext_background"
+        android:textColorHint="#4A0224"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/psw"
+        android:hint="Enter Password"
+        android:textColorHint="#4A0224"
+        android:inputType="textPassword"
+        android:layout_marginLeft="35sp"
+        android:layout_marginRight="35sp"
+        android:textSize="20sp"
+        android:padding="30sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginBottom="30sp"
+        android:background="@drawable/edittext_background"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30sp"
+        android:onClick="userAdd"
+        android:padding="20sp"
+        android:text="Add User"
+        android:background="@drawable/rounded_corners"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:backgroundTint="#ea1616"
+        />
+
+</LinearLayout>

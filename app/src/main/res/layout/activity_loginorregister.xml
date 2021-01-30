@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#98c898"
+    tools:context=".Loginorregister">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/login"
+        android:onClick="goToLogin"
+        android:layout_marginTop="200sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:padding="20sp"
+        android:textSize="30sp"
+        android:textAllCaps="false"
+        android:backgroundTint="#c898c8"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/register"
+        android:onClick="goToRegister"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:padding="20sp"
+        android:textSize="30sp"
+        android:textAllCaps="false"
+        android:backgroundTint="#c898c8"
+        />
+
+</LinearLayout>
